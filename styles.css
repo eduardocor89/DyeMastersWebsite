@@ -424,9 +424,10 @@ img {
 }
 /*Social Media Icons*/
 .fa {
-	padding: 25px;
-	font-size: 0px;
-	width: 30px;
+	color: whitesmoke;
+	padding: 21px;
+	height: auto;
+	width: 60px;
 	text-align: center;
 	text-decoration: none;
 	margin: 5px 2px;
