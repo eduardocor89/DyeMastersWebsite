@@ -270,7 +270,7 @@ img {
   }
 	img {
 	vertical-align: middle;
-	width: 100%;
+	height: auto;
 
   }
 	.slideshow-container {
@@ -293,8 +293,8 @@ img {
 	transition: 0.6s ease;
 	border-radius: 0 3px 3px 0;
 	user-select: none;
-	left: 95%;
-	
+	/* This is inverted so left is materialized as right and vice versa */
+	left: 95%;	
 }
 .next {
 	background-color: whitesmoke;
@@ -310,6 +310,7 @@ img {
 	transition: 0.6s ease;
 	border-radius: 0 3px 3px 0;
 	user-select: none;
+	
 	
 }
   /* Position the "next button" to the right */
@@ -332,14 +333,16 @@ img {
 		width: 100%;
 		text-align: center;
   	}
-  /* Number text (1/3 etc) */
-	.numbertext {
+  /* Number text (1/3 etc) */ 
+  /* Because of the expanding nature of this section, 
+  no numbers will be used.
+	/* .numbertext {
 	color: #000000;
 	font-size: 12px;
 	padding: 8px 12px;
 	position: absolute;
 	top: 0;
-  }
+  } */
   /* The dots/bullets/indicators */
 	.dot {
 	cursor: pointer;
@@ -406,7 +409,7 @@ img {
 .footer {
 	width: auto;
 	background-color: #009B3A;
-	color: #fdfcf3;
+	color: whitesmoke;
 	border-radius: 5px;
 	text-align: left;
 	padding-left: 5px;
@@ -490,6 +493,7 @@ img {
 .home-button {
 	color: whitesmoke;
 }
+
 .home-button:hover {
 	color: #fed100;
 }
