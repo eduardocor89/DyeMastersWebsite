@@ -21,10 +21,9 @@ h3 {
 }
 a {
 	color: #fdfcf3;
-}
-a {
 	text-decoration: none;
 }
+
 .logo {
 	margin: 0;
 	font-size: 3.5em;
@@ -69,29 +68,26 @@ a {
 	-moz-border-radius: 5px;
 	border-radius: 5px;
 }
-/*
-img {
-    width: auto;
+.hero-div {
+	background-color: #fdfcf3;
+	text-align: center;
 	position: relative;
+	border-radius: 10px;
+	margin-right: 30px;
+	margin-left: 30px;
+	margin-top: 10px;
+	padding-bottom: 15px;
+	display: block;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
 }
-*/
-
-
 .hero-image  {
 	position: relative;
-    text-align: center;
-	background-color: #a2a2a2;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-	border-bottom-right-radius: 5px;
-	border-bottom-left-radius: 5px;
 	z-index: 0;
+	height: auto;
+	width: 100%;
+
 }
-
-
-/* Main Section/ middle section of the website */
-
 .hero-text {
 	text-align: center;
 	position: relative;
@@ -102,6 +98,8 @@ img {
 	z-index: 1;
 
 }
+/* Main Section/ middle section of the website */
+
 
 .button1 {
 	background-color: #009B3A;
@@ -268,8 +266,9 @@ img {
 .mySlides {
 	display: none;
   }
-	img {
+	.img-slide {
 	vertical-align: middle;
+	max-width: 450px;
 	height: auto;
 
   }
