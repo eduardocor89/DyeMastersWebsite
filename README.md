@@ -5,6 +5,9 @@ READ ME AND CHANGELOG
 A working version of the DyeMastersGroup website. Elements are bound to be changed and things will continuously
 be added. ChangeLog is below
 
+1/16/2023
+Bug fixes
+Hero image rework for future image
 
 
 01/09/2023
