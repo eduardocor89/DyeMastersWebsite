@@ -1,1 +1,0 @@
-Website media lives in this folder. 
